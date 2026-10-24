@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+**/data.json
+audio/reference/
+*.wav
+sprites/source-sheets/
+sprites/frames/
+sprites/layers/
+sprites/webp/
+sprites/qa/
+*.zip
+.DS_Store

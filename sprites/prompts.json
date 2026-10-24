@@ -1,0 +1,426 @@
+{
+  "mode": "built-in image_gen",
+  "characters": {
+    "bear": {
+      "name": "bear",
+      "design": "Cream bear drummer, round cream head, tiny round ears, small brown oval nose, short plump body, tiny dot eyes, pink round cheeks, blue wristbands, oversized wooden drumsticks.",
+      "ref": "01-first-day"
+    },
+    "fox": {
+      "name": "fox",
+      "design": "Apricot orange fox bassist, large triangular dark-tipped ears, cream muzzle and tummy, fluffy cream-tipped tail, tiny dark-brown eyes, warm pink cheeks, small red heart pick, dark brown four-string bass when needed. Plump original fox, never pointed realistic anatomy.",
+      "ref": "05-reply"
+    },
+    "dog": {
+      "name": "dog",
+      "design": "Black-and-white puppy guitarist, round white face, ONE floppy black ear and one white ear, small black eye patch around the black-ear-side eye, dark eyebrows, pink cheeks, short plump white body and black tail tip, bright red guitar strap, little blue electric guitar when needed. Two ears total.",
+      "ref": "09-no-okay"
+    },
+    "otter": {
+      "name": "otter",
+      "design": "Warm cocoa-brown otter singer, rounded slightly flat head, tiny round ears, cream rounded muzzle and tummy, little dark nose, tiny whisker dots, broad paddle tail, teal scarf, handheld teal microphone when needed. Distinct from bear: darker fur, muzzle whisker dots, elongated paddle tail.",
+      "ref": "12-piyung"
+    },
+    "bird": {
+      "name": "bird",
+      "design": "Round soft yellow canary singer, tiny orange triangular beak, two short feather tufts, tiny wings, orange tiny feet, rosy cheeks, small lavender neck bow, lavender keyboard or notebook only when specified. No human hands.",
+      "ref": "15-will-do"
+    },
+    "cat": {
+      "name": "cat",
+      "design": "Small light-gray kitten drummer, mint inner triangular ears, one upright hair tuft, tiny dark dot eyes, pink cheeks, mint collar, curved slender tail, short little legs, small mint snare drum when specified. Distinct petite scale and visible little paws.",
+      "ref": "18-too-many"
+    },
+    "raccoon": {
+      "name": "raccoon",
+      "design": "Soft taupe gray raccoon drummer, dark charcoal eye mask as two joined rounded patches, tiny round ears, cream muzzle and tummy, striped fluffy tail, small navy ribbon tied by one ear, pink cheeks, dot eyes, tiny paws; drumsticks or editing pencil only when specified.",
+      "ref": "21-mouth"
+    }
+  },
+  "items": [
+    {
+      "id": "01-first-day",
+      "char": "bear",
+      "member": "bear",
+      "caption": "예제 01",
+      "motion": "1 timid upright holding drumsticks together; 2 looks down nervously; 3 starts polite bow; 4 bows deeply hugging sticks; 5 rises smiling; 6 FINAL warm smile, polite little bow, sticks together.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Cream bear drummer, round cream head, tiny round ears, small brown oval nose, short plump body, tiny dot eyes, pink round cheeks, blue wristbands, oversized wooden drumsticks.\nAnimation sequence: 1 timid upright holding drumsticks together; 2 looks down nervously; 3 starts polite bow; 4 bows deeply hugging sticks; 5 rises smiling; 6 FINAL warm smile, polite little bow, sticks together.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "02-innocent",
+      "char": "bear",
+      "member": "bear",
+      "caption": "예제 02",
+      "motion": "No props. 1 neutral hands down; 2 blink startled; 3 lean back with worried brows; 4 raise both open empty paws; 5 shake head slightly; 6 FINAL both open paws up in innocent protest, large pleading eyes and tiny closed mouth. No text or question marks.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Cream bear drummer, round cream head, tiny round ears, small brown oval nose, short plump body, tiny dot eyes, pink round cheeks, blue wristbands, oversized wooden drumsticks.\nAnimation sequence: No props. 1 neutral hands down; 2 blink startled; 3 lean back with worried brows; 4 raise both open empty paws; 5 shake head slightly; 6 FINAL both open paws up in innocent protest, large pleading eyes and tiny closed mouth. No text or question marks.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "03-practice",
+      "char": "bear",
+      "member": "bear",
+      "caption": "예제 03",
+      "motion": "Small blue snare drum stays fixed before bear. 1 focused sticks up; 2 right stick taps drum; 3 left stick taps; 4 both sticks up with effort sweat drop; 5 happy strong beat; 6 FINAL delighted closed-eye smile with sticks in triumphant V above drum. Exact same drum across six frames.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Cream bear drummer, round cream head, tiny round ears, small brown oval nose, short plump body, tiny dot eyes, pink round cheeks, blue wristbands, oversized wooden drumsticks.\nAnimation sequence: Small blue snare drum stays fixed before bear. 1 focused sticks up; 2 right stick taps drum; 3 left stick taps; 4 both sticks up with effort sweat drop; 5 happy strong beat; 6 FINAL delighted closed-eye smile with sticks in triumphant V above drum. Exact same drum across six frames.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "04-when",
+      "char": "bear",
+      "member": "bear",
+      "caption": "예제 04",
+      "motion": "No drums. Small blue round clock icon with simple ticks but NO numbers held in both paws throughout. 1 patiently waiting; 2 head tilt left; 3 head tilt right; 4 lean forward; 5 eyes sparkle with anticipation; 6 FINAL huge expectant eyes leaning toward viewer while holding clock clearly.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Cream bear drummer, round cream head, tiny round ears, small brown oval nose, short plump body, tiny dot eyes, pink round cheeks, blue wristbands, oversized wooden drumsticks.\nAnimation sequence: No drums. Small blue round clock icon with simple ticks but NO numbers held in both paws throughout. 1 patiently waiting; 2 head tilt left; 3 head tilt right; 4 lean forward; 5 eyes sparkle with anticipation; 6 FINAL huge expectant eyes leaning toward viewer while holding clock clearly.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "05-reply",
+      "char": "fox",
+      "member": "fox",
+      "caption": "예제 05",
+      "motion": "Fox holds red heart-shaped guitar pick in same right paw throughout. Blank rounded chat bubble floats in same spot to fox's right. 1 look at blank bubble; 2 lift pick; 3 tap bubble once; 4 pull pick back and pout; 5 tap again; 6 FINAL tender pleading face, pick resting on bubble, tail curves as heart-like arc. No bass needed.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Apricot orange fox bassist, large triangular dark-tipped ears, cream muzzle and tummy, fluffy cream-tipped tail, tiny dark-brown eyes, warm pink cheeks, small red heart pick, dark brown four-string bass when needed. Plump original fox, never pointed realistic anatomy.\nAnimation sequence: Fox holds red heart-shaped guitar pick in same right paw throughout. Blank rounded chat bubble floats in same spot to fox's right. 1 look at blank bubble; 2 lift pick; 3 tap bubble once; 4 pull pick back and pout; 5 tap again; 6 FINAL tender pleading face, pick resting on bubble, tail curves as heart-like arc. No bass needed.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "06-agree",
+      "char": "fox",
+      "member": "fox",
+      "caption": "예제 06",
+      "motion": "Fox holds one round wooden rubber stamp in right paw and blank small paper on little flat clipboard in left. 1 smug prepare; 2 raise stamp; 3 stamp down; 4 lift stamp showing simple check mark symbol; 5 wink; 6 FINAL proud smile showing paper with single bold green check symbol. Paper has NO letters.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Apricot orange fox bassist, large triangular dark-tipped ears, cream muzzle and tummy, fluffy cream-tipped tail, tiny dark-brown eyes, warm pink cheeks, small red heart pick, dark brown four-string bass when needed. Plump original fox, never pointed realistic anatomy.\nAnimation sequence: Fox holds one round wooden rubber stamp in right paw and blank small paper on little flat clipboard in left. 1 smug prepare; 2 raise stamp; 3 stamp down; 4 lift stamp showing simple check mark symbol; 5 wink; 6 FINAL proud smile showing paper with single bold green check symbol. Paper has NO letters.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "07-cute",
+      "char": "fox",
+      "member": "fox",
+      "caption": "예제 07",
+      "motion": "No bass. 1 shy glance; 2 bring paws closer; 3 paws together against cheek; 4 squish cheeks with paws; 5 blush grows; 6 FINAL very cute pleased closed-eye smile, paws by cheeks, three small pink hearts above shoulder. Keep dark-tipped ears and same tail.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Apricot orange fox bassist, large triangular dark-tipped ears, cream muzzle and tummy, fluffy cream-tipped tail, tiny dark-brown eyes, warm pink cheeks, small red heart pick, dark brown four-string bass when needed. Plump original fox, never pointed realistic anatomy.\nAnimation sequence: No bass. 1 shy glance; 2 bring paws closer; 3 paws together against cheek; 4 squish cheeks with paws; 5 blush grows; 6 FINAL very cute pleased closed-eye smile, paws by cheeks, three small pink hearts above shoulder. Keep dark-tipped ears and same tail.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "08-delete",
+      "char": "fox",
+      "member": "fox",
+      "caption": "예제 08",
+      "motion": "No instrument. One blank little chat bubble in front. 1 notice bubble with big eyes; 2 blush alarm; 3 reach toward bubble; 4 fluffy tail sweeps over bubble; 5 peek over tail; 6 FINAL red-cheeked embarrassed fox hiding lower face and blank bubble under same fluffy tail, only wide eyes and ears visible. No literal text in art.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Apricot orange fox bassist, large triangular dark-tipped ears, cream muzzle and tummy, fluffy cream-tipped tail, tiny dark-brown eyes, warm pink cheeks, small red heart pick, dark brown four-string bass when needed. Plump original fox, never pointed realistic anatomy.\nAnimation sequence: No instrument. One blank little chat bubble in front. 1 notice bubble with big eyes; 2 blush alarm; 3 reach toward bubble; 4 fluffy tail sweeps over bubble; 5 peek over tail; 6 FINAL red-cheeked embarrassed fox hiding lower face and blank bubble under same fluffy tail, only wide eyes and ears visible. No literal text in art.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "09-no-okay",
+      "char": "dog",
+      "member": "dog",
+      "caption": "예제 09",
+      "motion": "Puppy holds TWO small round paddles, red X in right paw, green O in left paw, same colored objects all frames. 1 stern eyebrows and red X held high, O behind body; 2 red X steady; 3 eyes soften; 4 green O peeks beside X; 5 O raises; 6 FINAL grumpy-but-kind face with large clear green O in front and red X lowered. No text other than X/O symbols.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Black-and-white puppy guitarist, round white face, ONE floppy black ear and one white ear, small black eye patch around the black-ear-side eye, dark eyebrows, pink cheeks, short plump white body and black tail tip, bright red guitar strap, little blue electric guitar when needed. Two ears total.\nAnimation sequence: Puppy holds TWO small round paddles, red X in right paw, green O in left paw, same colored objects all frames. 1 stern eyebrows and red X held high, O behind body; 2 red X steady; 3 eyes soften; 4 green O peeks beside X; 5 O raises; 6 FINAL grumpy-but-kind face with large clear green O in front and red X lowered. No text other than X/O symbols.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "10-reserved",
+      "char": "dog",
+      "member": "dog",
+      "caption": "예제 10",
+      "motion": "No guitar. One white reservation card with simple green check symbol, NO text. 1 stern eyes looking aside, card hidden; 2 rummage behind back with paw; 3 bring out card; 4 display check card; 5 shrug; 6 FINAL grumpy eyebrows but small pleased smile holding clearly visible green check card, red strap stays visible.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Black-and-white puppy guitarist, round white face, ONE floppy black ear and one white ear, small black eye patch around the black-ear-side eye, dark eyebrows, pink cheeks, short plump white body and black tail tip, bright red guitar strap, little blue electric guitar when needed. Two ears total.\nAnimation sequence: No guitar. One white reservation card with simple green check symbol, NO text. 1 stern eyes looking aside, card hidden; 2 rummage behind back with paw; 3 bring out card; 4 display check card; 5 shrug; 6 FINAL grumpy eyebrows but small pleased smile holding clearly visible green check card, red strap stays visible.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "11-already",
+      "char": "dog",
+      "member": "dog",
+      "caption": "예제 11",
+      "motion": "Small blue electric guitar with red strap stays consistent. 1 strum casually; 2 strum with other paw fretting; 3 relaxed closed eyes; 4 final chord; 5 lift strumming paw; 6 FINAL confident eyebrow and proud small smile, paw giving clear thumbs-up beside blue guitar, same two ears and eye patch.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Black-and-white puppy guitarist, round white face, ONE floppy black ear and one white ear, small black eye patch around the black-ear-side eye, dark eyebrows, pink cheeks, short plump white body and black tail tip, bright red guitar strap, little blue electric guitar when needed. Two ears total.\nAnimation sequence: Small blue electric guitar with red strap stays consistent. 1 strum casually; 2 strum with other paw fretting; 3 relaxed closed eyes; 4 final chord; 5 lift strumming paw; 6 FINAL confident eyebrow and proud small smile, paw giving clear thumbs-up beside blue guitar, same two ears and eye patch.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "12-piyung",
+      "char": "otter",
+      "member": "otter",
+      "caption": "예제 12",
+      "motion": "Teal handheld microphone stays in right paw. 1 inhale with cheeks expanding; 2 mouth small round o; 3 sing and lean left; 4 sing and lean right; 5 sweeping simple teal curved sound ribbon; 6 FINAL delighted puckered singing mouth, microphone close, one clear curved teal sound ribbon arcs around shoulder. No letters or notes with text.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Warm cocoa-brown otter singer, rounded slightly flat head, tiny round ears, cream rounded muzzle and tummy, little dark nose, tiny whisker dots, broad paddle tail, teal scarf, handheld teal microphone when needed. Distinct from bear: darker fur, muzzle whisker dots, elongated paddle tail.\nAnimation sequence: Teal handheld microphone stays in right paw. 1 inhale with cheeks expanding; 2 mouth small round o; 3 sing and lean left; 4 sing and lean right; 5 sweeping simple teal curved sound ribbon; 6 FINAL delighted puckered singing mouth, microphone close, one clear curved teal sound ribbon arcs around shoulder. No letters or notes with text.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "13-nap",
+      "char": "otter",
+      "member": "otter",
+      "caption": "예제 13",
+      "motion": "Otter sitting, teal scarf and microphone. 1 sleepy heavy eyelids; 2 yawn with paw covering mouth; 3 lower eyelids; 4 curl onto side hugging microphone; 5 settle cheeks into paws; 6 FINAL adorable peaceful asleep curled into round silhouette, eyes closed, microphone hugged like pillow. No Z letters.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Warm cocoa-brown otter singer, rounded slightly flat head, tiny round ears, cream rounded muzzle and tummy, little dark nose, tiny whisker dots, broad paddle tail, teal scarf, handheld teal microphone when needed. Distinct from bear: darker fur, muzzle whisker dots, elongated paddle tail.\nAnimation sequence: Otter sitting, teal scarf and microphone. 1 sleepy heavy eyelids; 2 yawn with paw covering mouth; 3 lower eyelids; 4 curl onto side hugging microphone; 5 settle cheeks into paws; 6 FINAL adorable peaceful asleep curled into round silhouette, eyes closed, microphone hugged like pillow. No Z letters.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "14-great",
+      "char": "otter",
+      "member": "otter",
+      "caption": "예제 14",
+      "motion": "No instrument. 1 bright smile open paws; 2 palms approach; 3 clap; 4 palms open; 5 clap again; 6 FINAL beaming proud smile eyes shining and both paws raised in praise with three small gold sparkles. Big clear happy face.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Warm cocoa-brown otter singer, rounded slightly flat head, tiny round ears, cream rounded muzzle and tummy, little dark nose, tiny whisker dots, broad paddle tail, teal scarf, handheld teal microphone when needed. Distinct from bear: darker fur, muzzle whisker dots, elongated paddle tail.\nAnimation sequence: No instrument. 1 bright smile open paws; 2 palms approach; 3 clap; 4 palms open; 5 clap again; 6 FINAL beaming proud smile eyes shining and both paws raised in praise with three small gold sparkles. Big clear happy face.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "15-will-do",
+      "char": "bird",
+      "member": "bird",
+      "caption": "예제 15",
+      "motion": "Tiny lavender keyboard in front in same place. 1 bird looks overwhelmed drooping wings; 2 sigh cheeks; 3 straightens back; 4 determined brows; 5 raise wing in tiny fist-like rounded shape; 6 FINAL determined but slightly nervous cute face with wing held up in resolve, keyboard still present.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Round soft yellow canary singer, tiny orange triangular beak, two short feather tufts, tiny wings, orange tiny feet, rosy cheeks, small lavender neck bow, lavender keyboard or notebook only when specified. No human hands.\nAnimation sequence: Tiny lavender keyboard in front in same place. 1 bird looks overwhelmed drooping wings; 2 sigh cheeks; 3 straightens back; 4 determined brows; 5 raise wing in tiny fist-like rounded shape; 6 FINAL determined but slightly nervous cute face with wing held up in resolve, keyboard still present.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "16-moved",
+      "char": "bird",
+      "member": "bird",
+      "caption": "예제 16",
+      "motion": "No instrument. 1 listen with tilted head; 2 eyes grow wide; 3 wings clasp to chest; 4 feathers fluff; 5 happy tears form; 6 FINAL round fluffy bird with bright happy teary eyes, wings over heart, two little pink hearts, joyful not sad.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Round soft yellow canary singer, tiny orange triangular beak, two short feather tufts, tiny wings, orange tiny feet, rosy cheeks, small lavender neck bow, lavender keyboard or notebook only when specified. No human hands.\nAnimation sequence: No instrument. 1 listen with tilted head; 2 eyes grow wide; 3 wings clasp to chest; 4 feathers fluff; 5 happy tears form; 6 FINAL round fluffy bird with bright happy teary eyes, wings over heart, two little pink hearts, joyful not sad.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "17-eat",
+      "char": "bird",
+      "member": "bird",
+      "caption": "예제 17",
+      "motion": "Open lavender menu notebook in wings stays same. Book contains only simple food pictograms, no lettering. 1 look at book; 2 look left food pictogram; 3 look right food pictogram; 4 tilt head left; 5 tilt right; 6 FINAL hungry curious face peeking over open menu with two simple food doodles rice bowl and noodle bowl. Keep clear big face.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Round soft yellow canary singer, tiny orange triangular beak, two short feather tufts, tiny wings, orange tiny feet, rosy cheeks, small lavender neck bow, lavender keyboard or notebook only when specified. No human hands.\nAnimation sequence: Open lavender menu notebook in wings stays same. Book contains only simple food pictograms, no lettering. 1 look at book; 2 look left food pictogram; 3 look right food pictogram; 4 tilt head left; 5 tilt right; 6 FINAL hungry curious face peeking over open menu with two simple food doodles rice bowl and noodle bowl. Keep clear big face.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "18-too-many",
+      "char": "cat",
+      "member": "cat",
+      "caption": "예제 18",
+      "motion": "Small gray kitten surrounded by a few BLANK pastel rounded chat bubbles, no marks. 1 one bubble arrives beside kitten; 2 two bubbles; 3 four bubbles; 4 bubbles pile around body; 5 kitten peeks up; 6 FINAL kitten's baffled eyes, ears and tiny paws peek clearly over a heap of five blank bubbles, face unobscured. Keep bubble heap within cell margins.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Small light-gray kitten drummer, mint inner triangular ears, one upright hair tuft, tiny dark dot eyes, pink cheeks, mint collar, curved slender tail, short little legs, small mint snare drum when specified. Distinct petite scale and visible little paws.\nAnimation sequence: Small gray kitten surrounded by a few BLANK pastel rounded chat bubbles, no marks. 1 one bubble arrives beside kitten; 2 two bubbles; 3 four bubbles; 4 bubbles pile around body; 5 kitten peeks up; 6 FINAL kitten's baffled eyes, ears and tiny paws peek clearly over a heap of five blank bubbles, face unobscured. Keep bubble heap within cell margins.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "19-try",
+      "char": "cat",
+      "member": "cat",
+      "caption": "예제 19",
+      "motion": "No props or drum. 1 hesitant kitten standing; 2 raises one forepaw; 3 takes little step forward; 4 leans forward bravely; 5 briefly glances back; 6 FINAL confident tiny thumbs-up paw and other paw pointing back beside simple mint U-turn arrow symbol. Humor is willing to try with fallback.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Small light-gray kitten drummer, mint inner triangular ears, one upright hair tuft, tiny dark dot eyes, pink cheeks, mint collar, curved slender tail, short little legs, small mint snare drum when specified. Distinct petite scale and visible little paws.\nAnimation sequence: No props or drum. 1 hesitant kitten standing; 2 raises one forepaw; 3 takes little step forward; 4 leans forward bravely; 5 briefly glances back; 6 FINAL confident tiny thumbs-up paw and other paw pointing back beside simple mint U-turn arrow symbol. Humor is willing to try with fallback.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "20-foot",
+      "char": "cat",
+      "member": "cat",
+      "caption": "예제 20",
+      "motion": "ONE large blank mint computer spacebar key on ground, no keyboard letters. 1 kitten faces viewer key in front; 2 lift right foot (viewer left); 3 aim foot over key; 4 foot presses key down; 5 keep pressed and look proud; 6 FINAL proud tiny kitten balancing with right foot planted on oversized mint spacebar, arms spread for balance. Same foot in frames 2 through 6. No drum.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Small light-gray kitten drummer, mint inner triangular ears, one upright hair tuft, tiny dark dot eyes, pink cheeks, mint collar, curved slender tail, short little legs, small mint snare drum when specified. Distinct petite scale and visible little paws.\nAnimation sequence: ONE large blank mint computer spacebar key on ground, no keyboard letters. 1 kitten faces viewer key in front; 2 lift right foot (viewer left); 3 aim foot over key; 4 foot presses key down; 5 keep pressed and look proud; 6 FINAL proud tiny kitten balancing with right foot planted on oversized mint spacebar, arms spread for balance. Same foot in frames 2 through 6. No drum.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "21-mouth",
+      "char": "raccoon",
+      "member": "raccoon",
+      "caption": "예제 21",
+      "motion": "No props. All six poses fixed seated body and face positions, only subtle facial changes. 1 neutral line mouth; 2 eyes widen and huge vertical O mouth; 3 medium round O mouth; 4 smaller o mouth; 5 tiny dot mouth; 6 FINAL calm deadpan face with small straight horizontal mouth, one paw gently touching chin. Clear comedic change from surprised to impassive. NO text in art.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Soft taupe gray raccoon drummer, dark charcoal eye mask as two joined rounded patches, tiny round ears, cream muzzle and tummy, striped fluffy tail, small navy ribbon tied by one ear, pink cheeks, dot eyes, tiny paws; drumsticks or editing pencil only when specified.\nAnimation sequence: No props. All six poses fixed seated body and face positions, only subtle facial changes. 1 neutral line mouth; 2 eyes widen and huge vertical O mouth; 3 medium round O mouth; 4 smaller o mouth; 5 tiny dot mouth; 6 FINAL calm deadpan face with small straight horizontal mouth, one paw gently touching chin. Clear comedic change from surprised to impassive. NO text in art.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "22-notify",
+      "char": "raccoon",
+      "member": "raccoon",
+      "caption": "예제 22",
+      "motion": "Raccoon holds two drumsticks neatly together and a tiny navy bell stands beside it. 1 waits calmly; 2 glances toward bell; 3 neatly aligns drumsticks; 4 sets them across lap; 5 raises tiny paw; 6 FINAL polite composed smile pointing to small bell beside neatly arranged sticks. No lettering.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Soft taupe gray raccoon drummer, dark charcoal eye mask as two joined rounded patches, tiny round ears, cream muzzle and tummy, striped fluffy tail, small navy ribbon tied by one ear, pink cheeks, dot eyes, tiny paws; drumsticks or editing pencil only when specified.\nAnimation sequence: Raccoon holds two drumsticks neatly together and a tiny navy bell stands beside it. 1 waits calmly; 2 glances toward bell; 3 neatly aligns drumsticks; 4 sets them across lap; 5 raises tiny paw; 6 FINAL polite composed smile pointing to small bell beside neatly arranged sticks. No lettering.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "23-choice",
+      "char": "raccoon",
+      "member": "raccoon",
+      "caption": "예제 23",
+      "motion": "Two small blank cards, one pale navy and one cream, in front of raccoon. 1 observes cards; 2 considers with paw chin; 3 reaches to navy card; 4 taps navy card; 5 green check symbol appears on navy card; 6 FINAL tiny knowing smile, head slightly tilted, one paw rests on selected card with clear green check.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Soft taupe gray raccoon drummer, dark charcoal eye mask as two joined rounded patches, tiny round ears, cream muzzle and tummy, striped fluffy tail, small navy ribbon tied by one ear, pink cheeks, dot eyes, tiny paws; drumsticks or editing pencil only when specified.\nAnimation sequence: Two small blank cards, one pale navy and one cream, in front of raccoon. 1 observes cards; 2 considers with paw chin; 3 reaches to navy card; 4 taps navy card; 5 green check symbol appears on navy card; 6 FINAL tiny knowing smile, head slightly tilted, one paw rests on selected card with clear green check.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    },
+    {
+      "id": "24-unbothered",
+      "char": "raccoon",
+      "member": "raccoon",
+      "caption": "예제 24",
+      "motion": "No props. Raccoon sitting in same pose entire sheet. Three small pale coral jagged EMPTY chatter bubbles around outer head, no symbols or words. 1 neutral; 2 one bubble appears; 3 three bubbles wobble; 4 raccoon blinks calmly; 5 bubbles deflate; 6 FINAL serenely unimpressed half-lidded expression arms folded, striped tail tucked neatly around body, just one harmless small bubble off to side.",
+      "durations_ms": [
+        160,
+        140,
+        140,
+        140,
+        180,
+        800
+      ],
+      "prompt": "Use case: illustration-story. Asset type: ONE production animation sprite sheet for a Korean messenger emoticon. Canvas exactly 1536x1024 with a perfectly regular 3 columns x 2 rows grid, each cell 512x512. SIX animation keyframes of ONE identical character, read left-to-right top row then bottom row. No grid lines, NO text, NO numbers, NO letters, NO watermark. Genuine transparent alpha background throughout, not white, not checkerboard. In every cell reserve top 100px empty for later Korean caption; character and props fit inside x=65..447 y=115..460 in LOCAL cell coordinates; identical fixed camera, scale, face proportions, baseline and colors across all six frames. Refined original cute 2D Korean chat sticker style: plump tiny body, big head, bold smooth dark-brown outlines with subtle hand-drawn charm, flat pastel fills, sparse blush, minimal shading, clean high contrast silhouette, thin cream-white outer keyline around silhouette for dark-background readability. No floor shadows or scenery. Each pose is distinct and reads in a 360px sticker. SIX CELLS EXACTLY.\nCharacter: Soft taupe gray raccoon drummer, dark charcoal eye mask as two joined rounded patches, tiny round ears, cream muzzle and tummy, striped fluffy tail, small navy ribbon tied by one ear, pink cheeks, dot eyes, tiny paws; drumsticks or editing pencil only when specified.\nAnimation sequence: No props. Raccoon sitting in same pose entire sheet. Three small pale coral jagged EMPTY chatter bubbles around outer head, no symbols or words. 1 neutral; 2 one bubble appears; 3 three bubbles wobble; 4 raccoon blinks calmly; 5 bubbles deflate; 6 FINAL serenely unimpressed half-lidded expression arms folded, striped tail tucked neatly around body, just one harmless small bubble off to side.\nKeep ALL SIX frames separate on the exact 3x2 grid. Reuse the same model sheet design, consistent cell-local positioning. Last cell bottom-right is finished strong thumbnail."
+    }
+  ]
+}

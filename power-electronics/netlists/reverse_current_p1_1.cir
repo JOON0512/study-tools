@@ -1,0 +1,11 @@
+Hart P1-1 reverse current: upper diode and controlled lower switch
+VS VP 0 24
+ILOAD 0 OUT 2
+D1 OUT VP DMOD
+S1 OUT 0 CTRL 0 SWMOD
+VCTRL CTRL 0 PULSE(0 5 0 1n 1n 2.5u 5u)
+.MODEL SWMOD VSWITCH(RON=.001 ROFF=1e10 VON=1 VOFF=0)
+.MODEL DMOD D(IS=1e-14 N=.001)
+.TRAN 5n 50u
+.PROBE V(OUT) I(VS)
+.END

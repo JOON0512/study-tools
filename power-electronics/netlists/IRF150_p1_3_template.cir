@@ -1,0 +1,13 @@
+Hart P1-3 TEMPLATE: requires user's actual IRF150 model library
+* Uncomment and point .LIB to the installed model. Device pin order must match.
+* .LIB "actual_model_file.lib"
+VS VP 0 24
+ILOAD OUT 0 2
+* If model is .MODEL NMOS: M1 VP G OUT OUT IRF150
+* If it is .SUBCKT: use X1 and model-specific pin order instead.
+VG G OUT PULSE(0 10 0 1n 1n 2.5u 5u)
+D1 0 OUT DMOD
+.MODEL DMOD D(IS=1e-14 N=1)
+.TRAN 5n 50u
+.PROBE V(OUT) I(VS)
+.END

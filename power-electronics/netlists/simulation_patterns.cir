@@ -1,0 +1,7 @@
+P2-32: Example 2-1 periodic prescribed voltage and current
+* B-source expressions are PSpice ABM style; verify version support.
+EV OUT 0 VALUE={IF(MOD(TIME,20m)<10m,20,0)}
+GI OUT 0 VALUE={IF(MOD(TIME,20m)<6m,20,-15)}
+.TRAN 1u 60m 40m 1u
+.PROBE V(OUT) I(EV)
+.END

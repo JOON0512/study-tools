@@ -1,0 +1,7 @@
+Example2-12 and Yonsei HW2-5
+VS IN 0 PULSE(0 20 0 1n 1n 8m 20m)
+R1 IN LN 2
+L1 LN 0 10m
+.TRAN 2u 200m 160m 2u
+.PROBE V(IN) I(L1) I(VS)
+.END

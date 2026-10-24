@@ -1,0 +1,8 @@
+HW1-2: ideal closing switch represented by connected DC source at t=0
+VS VIN 0 DC 100
+L1 VIN OUT 100u IC=0
+R1 OUT 0 100
+C1 OUT 0 100u IC=100
+.TRAN 0.5u 50m 0 0.5u UIC
+.PROBE V(OUT) I(L1)
+.END
